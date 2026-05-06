@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquaShine | Mobile Car Wash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">💧 AquaShine</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-nav">Book Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content fade-up">
+      <span class="badge">✦ Premium Mobile Car Wash</span>
+      <h1>We Come To You.<br/>Your Car Deserves<br/>The Best.</h1>
+      <p>Professional car washing at your doorstep. Eco-friendly products, expert detailing, and unbeatable shine — without leaving home.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Book Your Wash Today</a>
+        <a href="#how-it-works" class="btn btn-ghost">How It Works ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>500+</strong><span>Happy Clients</span></div>
+        <div class="stat"><strong>5.0 ★</strong><span>Avg Rating</span></div>
+        <div class="stat"><strong>2hr</strong><span>Avg Service</span></div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">What We Offer</span>
+        <h2>Our Car Wash Services</h2>
+        <p>From quick exterior rinses to full ceramic detailing — every level of clean covered.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card fade-up">
+          <div class="card-icon" style="background:#EBF8FF;">🚗</div>
+          <h3>Exterior Wash</h3>
+          <p>Full exterior rinse, foam wash, hand dry, and tire shine using eco-friendly products.</p>
+          <ul>
+            <li>✓ Foam pre-soak</li>
+            <li>✓ Hand wash &amp; rinse</li>
+            <li>✓ Tire &amp; rim clean</li>
+            <li>✓ Spot-free dry</li>
+          </ul>
+        </div>
+        <div class="card card-featured fade-up">
+          <span class="popular-badge">Most Popular</span>
+          <div class="card-icon" style="background:rgba(255,255,255,0.2);">✨</div>
+          <h3>Full Detail</h3>
+          <p>Complete inside-out transformation. Showroom finish every time.</p>
+          <ul>
+            <li>✓ Everything in Exterior</li>
+            <li>✓ Interior vacuum &amp; wipe</li>
+            <li>✓ Dashboard polish</li>
+            <li>✓ Glass cleaning inside-out</li>
+          </ul>
+        </div>
+        <div class="card fade-up">
+          <div class="card-icon" style="background:#EBF8FF;">💎</div>
+          <h3>Ceramic Coat</h3>
+          <p>Ceramic coating for long-lasting protection and a mirror-like gloss finish.</p>
+          <ul>
+            <li>✓ Paint decontamination</li>
+            <li>✓ Machine polish</li>
+            <li>✓ Ceramic application</li>
+            <li>✓ 12-month protection</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Transparent Pricing</span>
+        <h2>Choose Your Package</h2>
+        <p>No hidden fees. Simple, affordable packages for every need.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card fade-up">
+          <div class="pricing-top">
+            <h3>Basic</h3>
+            <div class="price"><sup>$</sup>29</div>
+            <p>Perfect for a quick freshen-up</p>
+          </div>
+          <ul class="pricing-list">
+            <li class="yes">✓ Exterior wash</li>
+            <li class="yes">✓ Window clean</li>
+            <li class="yes">✓ Tire shine</li>
+            <li class="no">✗ Interior vacuum</li>
+            <li class="no">✗ Dashboard wipe</li>
+            <li class="no">✗ Ceramic protection</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-dark w-full">Book Basic</a>
+        </div>
+        <div class="pricing-card pricing-highlight fade-up">
+          <span class="highlight-badge">Best Value</span>
+          <div class="pricing-top">
+            <h3>Premium</h3>
+            <div class="price"><sup>$</sup>79</div>
+            <p>Our most popular full-service wash</p>
+          </div>
+          <ul class="pricing-list">
+            <li class="yes">✓ Exterior wash</li>
+            <li class="yes">✓ Window clean</li>
+            <li class="yes">✓ Tire shine</li>
+            <li class="yes">✓ Interior vacuum</li>
+            <li class="yes">✓ Dashboard wipe</li>
+            <li class="no">✗ Ceramic protection</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary w-full">Book Premium</a>
+        </div>
+        <div class="pricing-card fade-up">
+          <div class="pricing-top">
+            <h3>Ultimate</h3>
+            <div class="price"><sup>$</sup>149</div>
+            <p>The complete luxury detailing package</p>
+          </div>
+          <ul class="pricing-list">
+            <li class="yes">✓ Exterior wash</li>
+            <li class="yes">✓ Window clean</li>
+            <li class="yes">✓ Tire shine</li>
+            <li class="yes">✓ Interior vacuum</li>
+            <li class="yes">✓ Dashboard wipe</li>
+            <li class="yes">✓ Ceramic protection</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-dark w-full">Book Ultimate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Simple Process</span>
+        <h2>How It Works</h2>
+        <p>Getting your car washed has never been easier.</p>
+      </div>
+      <div class="steps-wrap">
+        <div class="step fade-up">
+          <div class="step-num">01</div>
+          <div class="step-icon">📱</div>
+          <h3>Book Online</h3>
+          <p>Choose your service, pick a time slot, and confirm in under 2 minutes.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step fade-up">
+          <div class="step-num">02</div>
+          <div class="step-icon">🚚</div>
+          <h3>We Come To You</h3>
+          <p>Our team arrives at your location on time with all equipment and eco products.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step fade-up">
+          <div class="step-num">03</div>
+          <div class="step-icon">🌟</div>
+          <h3>Enjoy The Shine</h3>
+          <p>Sit back, relax, and enjoy your perfectly cleaned vehicle. Pay only when satisfied.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-alt" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Customer Reviews</span>
+        <h2>What Our Clients Say</h2>
+        <p>Over 500 satisfied customers and counting.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial fade-up">
+          <div class="stars">★★★★★</div>
+          <p>"AquaShine transformed my car! They came to my office parking lot and did an incredible job. The interior detailing was spotless."</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/60?img=1" alt="Sarah M." />
+            <div><strong>Sarah M.</strong><span>Business Owner</span></div>
+          </div>
+        </div>
+        <div class="testimonial fade-up">
+          <div class="stars">★★★★★</div>
+          <p>"Super convenient! Booked via WhatsApp, they arrived exactly on time. My SUV looks brand new. Will definitely use again!"</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/60?img=3" alt="James T." />
+            <div><strong>James T.</strong><span>Engineer</span></div>
+          </div>
+        </div>
+        <div class="testimonial fade-up">
+          <div class="stars">★★★★★</div>
+          <p>"The ceramic coating package is worth every penny. My car repels water like nothing I've ever seen. Absolutely recommend!"</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/60?img=5" alt="Mia L." />
+            <div><strong>Mia L.</strong><span>Photographer</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-left fade-up">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Book Your Wash Today</h2>
+          <p>Fill out the form or reach us directly. We respond within 1 hour.</p>
+          <div class="contact-details">
+            <div class="c-item">📞 <span>+1 (555) 123-4567</span></div>
+            <div class="c-item">📧 <span>hello@aquashine.com</span></div>
+            <div class="c-item">🕐 <span>Mon–Sat: 7am – 7pm</span></div>
+          </div>
+        </div>
+        <form class="contact-form fade-up" id="bookingForm">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="tel" placeholder="Phone Number" required />
+          </div>
+          <input type="text" placeholder="Vehicle Type (e.g. Sedan, SUV)" />
+          <select>
+            <option value="" disabled selected>Select Package</option>
+            <option>Basic — $29</option>
+            <option>Premium — $79</option>
+            <option>Ultimate — $149</option>
+          </select>
+          <input type="date" />
+          <textarea placeholder="Address or additional notes..." rows="4"></textarea>
+          <button type="submit" class="btn btn-primary w-full">Book Your Wash Today</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">💧 AquaShine</div>
+          <p>Premium mobile car wash at your doorstep. Eco-friendly. Professional. Reliable.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#contact">Book Now</a>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <a href="#">Exterior Wash</a>
+          <a href="#">Full Detail</a>
+          <a href="#">Ceramic Coating</a>
+          <a href="#">Fleet Washing</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="#">+1 (555) 123-4567</a>
+          <a href="#">hello@aquashine.com</a>
+          <a href="#">Mon–Sat: 7am–7pm</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AquaShine. All rights reserved.</p>
+        <div class="socials">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/15551234567" class="wa-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
